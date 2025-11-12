@@ -1,7 +1,7 @@
 'use client';
 
 import { MissionsSection } from '@/components/missions-section';
-import { ThreatAnalysisSection } from '@/components/threat-analysis-section';
+// import { ThreatAnalysisSection } from '@/components/threat-analysis-section';
 import { ContactSection } from '@/components/contact-section';
 import { Sidebar } from '@/components/ui/sidebar';
 import { DashboardHeader } from '@/components/dashboard-header';
@@ -19,7 +19,7 @@ export default function Home() {
         <DashboardHeader />
         <main className="flex-1 overflow-y-auto p-4 md:p-6 lg:p-8 space-y-8">
             {/* <ProfileSection /> */}
-            {/* <MissionsSection /> */}
+            <MissionsSection />
             {/* <ThreatAnalysisSection /> */}
             <ContactSection />
         </main>
