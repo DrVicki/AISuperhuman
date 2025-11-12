@@ -5,7 +5,7 @@ import {
   SidebarMenuItem,
   SidebarMenuButton,
 } from "@/components/ui/sidebar";
-import { Globe, Mail, ShieldCheck, UserCircle, BotMessageSquare } from "lucide-react";
+import { Globe, Mail, ShieldCheck, UserCircle, BotMessageSquare, MessageSquare } from "lucide-react";
 import Link from 'next/link';
 
 export function DashboardNav() {
@@ -36,6 +36,11 @@ export function DashboardNav() {
           <SidebarMenuItem>
             <SidebarMenuButton asChild tooltip="Threat Analysis">
                 <a href="#threat-analysis"><ShieldCheck /><span>Threat Analysis</span></a>
+            </SidebarMenuButton>
+          </SidebarMenuItem>
+           <SidebarMenuItem>
+            <SidebarMenuButton asChild tooltip="Chatbot">
+                <a href="#chatbot"><MessageSquare /><span>Chatbot</span></a>
             </SidebarMenuButton>
           </SidebarMenuItem>
           <SidebarMenuItem>

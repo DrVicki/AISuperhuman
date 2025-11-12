@@ -7,6 +7,7 @@ import { Sidebar } from '@/components/ui/sidebar';
 import { DashboardHeader } from '@/components/dashboard-header';
 import { DashboardNav } from '@/components/dashboard-nav';
 import { ProfileSection } from '@/components/profile-section';
+import { Chatbot } from '@/components/chatbot';
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
             <ThreatAnalysisSection />
             <ContactSection />
         </main>
+        <Chatbot />
       </div>
     </div>
   );
