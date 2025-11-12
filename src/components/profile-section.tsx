@@ -34,27 +34,25 @@ export function ProfileSection() {
     <section id="profile" className="scroll-mt-20 space-y-8">
       <div>
         <h2 className="text-3xl font-headline font-bold tracking-tight text-primary">Profile Showcase</h2>
-        <p className="mt-2 text-muted-foreground">Shadowblade's profile with bio, skills, and mission history.</p>
+        <p className="mt-2 text-muted-foreground">AISuperHuman's profile with bio, skills, and mission history.</p>
       </div>
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
-        <div className="lg:col-span-1">
-          <Card className="overflow-hidden">
-            {profileImage && (
-              <div className="relative aspect-square">
-                  <Image
-                    src={profileImage.imageUrl}
-                    alt={profileImage.description}
-                    data-ai-hint={profileImage.imageHint}
-                    fill
-                    className="object-cover"
-                  />
-              </div>
-            )}
-            <CardHeader>
-                <CardTitle className="font-headline text-primary">AISuperHuman</CardTitle>
-                <CardDescription>Dr. Vicki Bealman</CardDescription>
-            </CardHeader>
-          </Card>
+        <div className="flex flex-col items-center space-y-4 lg:col-span-1">
+          {profileImage && (
+            <div className="relative h-64 w-64">
+                <Image
+                  src={profileImage.imageUrl}
+                  alt={profileImage.description}
+                  data-ai-hint={profileImage.imageHint}
+                  fill
+                  className="object-cover rounded-full border-4 border-primary/50"
+                />
+            </div>
+          )}
+          <div className="text-center">
+              <CardTitle className="font-headline text-primary text-3xl">AISuperHuman</CardTitle>
+              <CardDescription className="text-lg">Dr. Vicki Bealman</CardDescription>
+          </div>
         </div>
         <div className="lg:col-span-2 space-y-8">
           <Card>
