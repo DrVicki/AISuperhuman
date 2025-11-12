@@ -1,8 +1,11 @@
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
-const mapImage = PlaceHolderImages.find(img => img.id === 'world-map');
+const mapImage = {
+  imageUrl: 'https://i.postimg.cc/13YpB0gB/world-map.jpg',
+  description: 'World map of missions',
+  imageHint: 'dark world map',
+};
 
 const featuredMissions = [
     { title: "Project AI DeVry University", location: "USA", description: " Transformed critical real-world challenges into a powerful learning opportunity by dismantling a rogue AI network set on destabilizing the global education market. Through this process, they developed an innovative curriculum that empowers students to tackle complex digital threats with confidence and skill. By turning a potential global crisis into a dynamic educational experience, AISuperHuman equips future leaders with the tools and knowledge needed to protect and enhance financial systems, fostering a new generation of tech-savvy problem solvers." },
