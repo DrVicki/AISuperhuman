@@ -34,7 +34,7 @@ export function ProfileSection() {
     <section id="profile" className="scroll-mt-20 space-y-8">
       <div>
         <h2 className="text-3xl font-headline font-bold tracking-tight text-primary">Profile Showcase</h2>
-        <p className="mt-2 text-muted-foreground">AISuperHuman's profile with bio, skills, and mission history.</p>
+        <p className="mt-2 text-muted-foreground">The Brains Behind the Magic</p>
       </div>
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
         <div className="flex flex-col items-center space-y-4 lg:col-span-1">
