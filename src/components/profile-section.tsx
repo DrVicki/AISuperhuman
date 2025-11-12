@@ -15,6 +15,7 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from '@/components/ui/tooltip';
+import { Linkedin, Github } from 'lucide-react';
 
 const profileImage = PlaceHolderImages.find(
   (img) => img.id === 'profile-picture'
@@ -52,6 +53,14 @@ export function ProfileSection() {
           <div className="text-center">
               <CardTitle className="font-headline text-primary text-3xl">AISuperHuman</CardTitle>
               <CardDescription className="text-lg">Dr. Vicki Bealman</CardDescription>
+              <div className="flex justify-center items-center gap-4 mt-4">
+                <a href="https://www.linkedin.com/in/dr-vicki-bealman/" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Linkedin className="h-6 w-6" />
+                </a>
+                <a href="https://github.com/drvicki" target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-primary transition-colors">
+                  <Github className="h-6 w-6" />
+                </a>
+              </div>
           </div>
         </div>
         <div className="lg:col-span-2 space-y-8">
