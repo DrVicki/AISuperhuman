@@ -6,7 +6,7 @@ import { ContactSection } from '@/components/contact-section';
 import { Sidebar } from '@/components/ui/sidebar';
 import { DashboardHeader } from '@/components/dashboard-header';
 import { DashboardNav } from '@/components/dashboard-nav';
-// import { ProfileSection } from '@/components/profile-section';
+import { ProfileSection } from '@/components/profile-section';
 
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
       <div className="flex flex-col w-full">
         <DashboardHeader />
         <main className="flex-1 overflow-y-auto p-4 md:p-6 lg:p-8 space-y-8">
-            {/* <ProfileSection /> */}
+            <ProfileSection />
             <MissionsSection />
             <ThreatAnalysisSection />
             <ContactSection />
