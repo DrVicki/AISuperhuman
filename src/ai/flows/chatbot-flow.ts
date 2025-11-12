@@ -9,6 +9,7 @@
 
 import {ai} from '@/ai/genkit';
 import {z} from 'genkit';
+import {Message, Part} from 'genkit';
 
 const ChatbotInputSchema = z.object({
   history: z.array(z.object({
@@ -55,17 +56,17 @@ const chatbotFlow = ai.defineFlow(
     outputSchema: z.string(),
   },
   async ({ history, question }) => {
-    const llmHistory = history.map((message) => ({
+    const llmHistory: Message[] = history.map((message) => ({
       role: message.role,
       content: [{ text: message.content }],
     }));
 
-    const { output } = await ai.generate({
-      prompt: [{ text: question }],
+    const response = await ai.generate({
+      prompt: question,
       system: CONTEXT,
       history: llmHistory,
     });
 
-    return output.text;
+    return response.text;
   }
 );
