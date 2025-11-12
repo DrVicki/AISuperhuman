@@ -72,7 +72,7 @@ export function ProfileSection() {
           <div>
             <h3 className="font-headline text-lg font-semibold">Biometric Data</h3>
             <p className="mt-2 text-muted-foreground">
-              A digital entity of unknown origin, AISuperHuman is a master of infiltration and cyber warfare. Operating as a ghost in the machine, their motives are as enigmatic as their methods. They have been credited with both preventing global-scale cyber-disasters and orchestrating precision strikes against fortified digital fortresses. Their allegiance seems to be to the balance of power in the digital realm, making them a volatile and unpredictable force.
+              AISuperHuman is a legendary figure in the realm of education and technology, a lifelong educator renowned for their transformative influence on the field of coding and artificial intelligence. Revered in the whispered conversations of tech forums and academic circles, AISuperHuman is a guiding force behind countless innovations in digital pedagogy and AI applications. Operating both within and beyond traditional educational boundaries, AISuperHuman crafts learning experiences with unmatched finesse and insight. Their dedication is as profound as their expertise, consistently aligning with empowering future generations to drive ethical advancements in technology and AI, while fostering a safer, smarter digital world.
             </p>
           </div>
         </CardContent>
