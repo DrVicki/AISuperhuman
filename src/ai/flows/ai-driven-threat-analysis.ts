@@ -1,7 +1,7 @@
 'use server';
 
 /**
- * @fileOverview An AI-driven threat analysis tool that analyzes global news and security reports to identify potential threats and provide risk assessments for Shadowblade's missions.
+ * @fileOverview An AI-driven threat analysis tool that analyzes global news and security reports to identify potential threats and provide risk assessments for AISuperHuman's missions.
  *
  * - analyzeThreats - A function that handles the threat analysis process.
  * - ThreatAnalysisInput - The input type for the analyzeThreats function.
@@ -23,7 +23,7 @@ export type ThreatAnalysisInput = z.infer<typeof ThreatAnalysisInputSchema>;
 
 const ThreatAnalysisOutputSchema = z.object({
   threatSummary: z.string().describe('A summary of potential threats.'),
-  riskAssessment: z.string().describe('A risk assessment for Shadowblade missions.'),
+  riskAssessment: z.string().describe('A risk assessment for AISuperHuman missions.'),
   recommendations: z
     .string()
     .describe('Recommendations for mitigating potential threats.'),
@@ -40,9 +40,9 @@ const prompt = ai.definePrompt({
   name: 'threatAnalysisPrompt',
   input: {schema: ThreatAnalysisInputSchema},
   output: {schema: ThreatAnalysisOutputSchema},
-  prompt: `You are an AI-powered threat analysis tool designed to identify potential threats and provide risk assessments for Shadowblade's missions.
+  prompt: `You are an AI-powered threat analysis tool designed to identify potential threats and provide risk assessments for AISuperHuman's missions.
 
-  Analyze the following global news and security reports to identify potential threats and provide a risk assessment for Shadowblade's missions.
+  Analyze the following global news and security reports to identify potential threats and provide a risk assessment for AISuperHuman's missions.
 
   Global News:
   {{news}}

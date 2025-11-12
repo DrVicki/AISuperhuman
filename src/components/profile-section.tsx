@@ -38,7 +38,7 @@ export function ProfileSection() {
               />
             )}
           </div>
-          <h3 className="mt-4 text-2xl font-headline font-semibold">Shadowblade</h3>
+          <h3 className="mt-4 text-2xl font-headline font-semibold">AISuperHuman</h3>
           <p className="text-muted-foreground">Ghost in the Machine</p>
         </Card>
 
@@ -49,7 +49,7 @@ export function ProfileSection() {
             </CardHeader>
             <CardContent>
                 <p className="text-muted-foreground">
-                A legend whispered in the darkest corners of the net, Shadowblade is a phantom entity mastering the arts of digital and physical infiltration. Operating outside conventional jurisdictions, Shadowblade executes missions with unparalleled precision and silence. Their motives are as enigmatic as their identity, but their actions consistently align with thwarting global cyber-terrorism and corporate espionage.
+                A legend whispered in the darkest corners of the net, AISuperHuman is a phantom entity mastering the arts of digital and physical infiltration. Operating outside conventional jurisdictions, AISuperHuman executes missions with unparalleled precision and silence. Their motives are as enigmatic as their identity, but their actions consistently align with thwarting global cyber-terrorism and corporate espionage.
                 </p>
             </CardContent>
             </Card>

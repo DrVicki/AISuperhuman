@@ -14,7 +14,7 @@ export function MissionsSection() {
   return (
     <section id="missions" className="scroll-mt-20">
       <h2 className="text-3xl font-headline font-bold tracking-tight text-primary">Global Operations</h2>
-      <p className="mt-2 text-muted-foreground">Mapping Shadowblade's impact across the globe.</p>
+      <p className="mt-2 text-muted-foreground">Mapping AISuperHuman's impact across the globe.</p>
 
       <Card className="mt-6">
         <CardContent className="p-2">

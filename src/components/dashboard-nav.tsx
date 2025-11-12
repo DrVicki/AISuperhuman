@@ -12,11 +12,11 @@ export function DashboardNav() {
   return (
     <>
       <SidebarHeader className="p-4">
-        <Link href="/" className="flex items-center gap-2" aria-label="Shadowblade HQ Home">
+        <Link href="/" className="flex items-center gap-2" aria-label="AISuperHuman HQ Home">
             <BotMessageSquare className="w-8 h-8 text-primary" />
             <div className="flex flex-col group-data-[collapsible=icon]:hidden">
               <h1 className="text-xl font-headline font-bold text-primary-foreground">
-                  Shadowblade HQ
+                  AISuperHuman HQ
               </h1>
             </div>
         </Link>

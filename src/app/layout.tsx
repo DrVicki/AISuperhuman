@@ -4,8 +4,8 @@ import { SidebarProvider } from '@/components/ui/sidebar';
 import { Toaster } from '@/components/ui/toaster';
 
 export const metadata: Metadata = {
-  title: 'Shadowblade HQ',
-  description: 'Personal profile for the hero codenamed Shadowblade',
+  title: 'AISuperHuman HQ',
+  description: 'Personal profile for the hero codenamed AISuperHuman',
 };
 
 export default function RootLayout({
