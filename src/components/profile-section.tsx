@@ -21,12 +21,12 @@ const profileImage = PlaceHolderImages.find(
 );
 
 const skills = [
-    { name: 'Quantum Encryption', description: 'Advanced cryptographic techniques to secure data from quantum computing threats.' },
-    { name: 'AI-driven Predictive Analysis', description: 'Utilizing machine learning models to forecast and neutralize cyber-attacks before they occur.' },
-    { name: 'Neural Interface Ops', description: 'Directly interfacing with computer systems through neural links for rapid response.' },
-    { name: 'Stealth Infiltration', description: 'Employing digital and physical cloaking for covert operations.' },
-    { name: 'Robotics & Drone Piloting', description: 'Commanding a fleet of autonomous drones for surveillance and tactical support.' },
-    { name: 'Decentralized Network Warfare', description: 'Disrupting and dismantling hostile networks operating on decentralized protocols.' },
+    { name: 'AI and Machine Learning', description: 'Building intelligent systems that learn from data.' },
+    { name: 'AI Driven predictive Analysis', description: 'Utilizing machine learning models to forecast and neutralize cyber-attacks before they occur.' },
+    { name: 'Full-Stack Development', description: 'Expertise in both front-end and back-end technologies to build complete applications.' },
+    { name: 'Mobile App Development', description: 'Creating applications for iOS and Android devices.' },
+    { name: 'Curriculum Design and Development', description: 'Designing and creating educational content and curricula for training programs.' },
+    { name: 'Boot Camp Developer and Facilitator', description: 'Leading and instructing intensive software development bootcamps.' },
 ];
 
 export function ProfileSection() {
