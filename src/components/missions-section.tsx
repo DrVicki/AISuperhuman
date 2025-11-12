@@ -22,15 +22,13 @@ export function MissionsSection() {
       <Card className="mt-6 max-w-4xl mx-auto">
         <CardContent className="p-2">
           <div className="aspect-[16/9] relative overflow-hidden rounded-md border border-primary/20 shadow-inner">
-            {mapImage && (
-              <Image
-                src={mapImage.imageUrl}
-                alt={mapImage.description}
-                data-ai-hint={mapImage.imageHint}
+            <Image
+                src="https://i.postimg.cc/13YpB0gB/world-map.jpg"
+                alt="World map of missions"
+                data-ai-hint="dark world map"
                 fill
                 className="object-cover"
               />
-            )}
             <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent"></div>
           </div>
         </CardContent>
