@@ -30,7 +30,7 @@ const skills = [
 
 export function ProfileSection() {
   return (
-    <section id="profile" className="scroll-mt-20">
+    <section id="profile" className="scroll-mt-20 space-y-8">
       <Card className="overflow-hidden">
         <CardHeader className="relative h-48 bg-muted/20 p-0">
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent"></div>
@@ -77,7 +77,7 @@ export function ProfileSection() {
         </CardContent>
       </Card>
       
-      <Card className="mt-6">
+      <Card>
         <CardHeader>
             <CardTitle className="font-headline">Core Competencies</CardTitle>
             <CardDescription>Primary skillsets and operational specialties.</CardDescription>
