@@ -16,7 +16,7 @@ export function MissionsSection() {
       <h2 className="text-3xl font-headline font-bold tracking-tight text-primary">Global Operations</h2>
       <p className="mt-2 text-muted-foreground">Mapping AISuperHuman's impact across the globe.</p>
 
-      <Card className="mt-6">
+      <Card className="mt-6 max-w-4xl mx-auto">
         <CardContent className="p-2">
           <div className="aspect-[16/9] relative overflow-hidden rounded-md border border-primary/20 shadow-inner">
             {mapImage && (
