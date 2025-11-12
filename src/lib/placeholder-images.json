@@ -1,3 +1,16 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "profile-picture",
+      "description": "Shadowblade's profile picture",
+      "imageUrl": "https://images.unsplash.com/photo-1531751937280-3330f26c702b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxhbm9ueW1vdXMlMjBoYWNrZXJ8ZW58MHx8fHwxNzYyOTc2OTU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "anonymous hacker"
+    },
+    {
+      "id": "world-map",
+      "description": "World map of missions",
+      "imageUrl": "https://images.unsplash.com/photo-1716237637398-407d45209720?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxkYXJrJTIwd29ybGR8ZW58MHx8fHwxNzYyOTc2OTU2fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "dark world"
+    }
+  ]
 }
