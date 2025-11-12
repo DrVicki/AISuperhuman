@@ -23,9 +23,9 @@ export function MissionsSection() {
         <CardContent className="p-2">
           <div className="aspect-[16/9] relative overflow-hidden rounded-md border border-primary/20 shadow-inner">
             <Image
-                src="https://i.postimg.cc/13YpB0gB/world-map.jpg"
-                alt="World map of missions"
-                data-ai-hint="dark world map"
+                src="https://i.postimg.cc/bJJCGQKg/bwsteampunk.png"
+                alt="Steampunk style world map"
+                data-ai-hint="steampunk world map"
                 fill
                 className="object-cover"
               />
