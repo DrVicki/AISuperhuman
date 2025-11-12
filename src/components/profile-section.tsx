@@ -47,7 +47,7 @@ export function ProfileSection() {
           <div className="relative flex h-full items-end p-6">
               <div className="flex items-end gap-4">
                   {profileImage && (
-                      <div className="relative h-24 w-24 rounded-full border-4 border-background shadow-lg">
+                      <div className="relative h-32 w-32 rounded-full border-4 border-background shadow-lg">
                           <Image
                             src={profileImage.imageUrl}
                             alt={profileImage.description}
