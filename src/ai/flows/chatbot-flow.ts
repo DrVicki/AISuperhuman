@@ -55,10 +55,9 @@ const chatbotFlow = ai.defineFlow(
     outputSchema: z.string(),
   },
   async ({ history, question }) => {
-
     const llmHistory = history.map((message) => ({
-        role: message.role,
-        content: [{ text: message.content }],
+      role: message.role,
+      content: [{ text: message.content }],
     }));
 
     const { output } = await ai.generate({
