@@ -62,7 +62,7 @@ export function ProfileSection() {
                           AISuperHuman
                       </h1>
                       <p className="text-muted-foreground">
-                          Digital Ghost &amp; Master of Cyber Warfare
+                          Dr. Vicki Bealman
                       </p>
                   </div>
               </div>
